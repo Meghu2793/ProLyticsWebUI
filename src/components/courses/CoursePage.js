@@ -54,6 +54,7 @@ class CoursePage extends React.Component{
           <Button
             block
             bsSize="large"
+            bsStyle="primary"
             // disabled={!this.validateForm()}
             type="submit"
           >

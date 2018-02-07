@@ -37,7 +37,7 @@ class AboutPage extends React.Component{
                 <div className="Login">
         <form onSubmit={this.handleSubmit}>
         <FormGroup controlId="username" bsSize="large">
-            <ControlLabel>UserName</ControlLabel>
+            <ControlLabel>User Name</ControlLabel>
             <FormControl
               autoFocus
               type="username"
@@ -47,7 +47,7 @@ class AboutPage extends React.Component{
             </FormGroup>
 
             <FormGroup controlId="dob" bsSize="large">
-            <ControlLabel>DateOfBirth</ControlLabel>
+            <ControlLabel>Date Of Birth</ControlLabel>
             <FormControl
               
               type="DateOfBirth"
@@ -77,6 +77,7 @@ class AboutPage extends React.Component{
           <Button
             block
             bsSize="large"
+            bsStyle="primary"
             // disabled={!this.validateForm()}
             type="submit"
           >

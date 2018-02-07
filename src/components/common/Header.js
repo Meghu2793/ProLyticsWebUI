@@ -16,13 +16,13 @@ const Header = () => {
     </Navbar.Header>
     <Navbar.Collapse>
         <Nav pullRight>
+        <IndexLink to="/" activeClassName="active">Home</IndexLink>
+            {"  |  "}
         <IndexLink to="/professional" activeClassName="active">Professional</IndexLink>
             {"  |  "}
             <Link to="/fantasy" activeClassName="active">Fantasy</Link>
             {"  |  "}
-            <IndexLink to="/" activeClassName="active">Home</IndexLink>
-            {"  |  "}
-            <Link to="/courses" activeClassName="active">Login</Link>
+                        <Link to="/courses" activeClassName="active">Login</Link>
             {"  |  "}
             <Link to="/about" activeClassName="active">SignUp</Link>
         </Nav>
