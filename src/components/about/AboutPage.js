@@ -27,9 +27,6 @@ class AboutPage extends React.Component{
     handleSubmit(event){
         event.preventDefault();
     }
-    // RouteToSignupPage(event){
-    //     <Link to="about" className="btn btn-primary btn-lg">Learn More</Link>
-    // }
     render(){
         return(
             <div>
